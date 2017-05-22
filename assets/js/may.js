@@ -27,6 +27,7 @@ function generateChart(){
 
 //初始化城市选项列表
 function generateCities(d){
+  citySel.selectAll("option").remove();
   for(var i=0;i<d.length;i++){
     var option=citySel.append("option");
     option.attr("value",i);
