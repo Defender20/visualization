@@ -1,0 +1,11 @@
+{
+  "name": "d3",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "d3": "^4.9.1",
+    "jquery": "1.12.4"
+  }
+}
